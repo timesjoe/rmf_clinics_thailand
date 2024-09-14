@@ -1,0 +1,24 @@
+baseURL = 'https://timesjoe.github.io/rmf_clinics_thailand_st/'
+languageCode = 'en-us'
+title = 'RMF Clinics Thailand'
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Real Spirit"
+url = "/real-spirit/"
+weight = 2
+
+[[menu.main]]
+name = "clinics"
+url = "/clinics/"
+weight = 3
+
+[[menu.main]]
+name = "worldwild"
+url = "/worldwild/"
+weight = 3

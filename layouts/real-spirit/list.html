@@ -1,0 +1,44 @@
+{{ define "main"}}
+
+<div class="homeContainer" >
+    <div class="rsBannerCard">
+        <div class="bannerContent">
+            <h1>REAL MADRID <span class="highlight">REAL WAY</span></h1>
+            <p>REAL MADRID FOUNDATION <span class="highlight">CLINICS</span></p>
+        </div>
+    </div>
+    <div class="eventInfoSec">
+        <div class="eventInfoContent">
+            <div class="eventInfoHeader">
+                <h1><span class="highlight2">REAL MADRID</span> FOUNDATION<br>SOCCER CAMPS<br><span class="highlight2">IN USA</span></h1>
+                <p>for a better training and education in football</p>
+            </div>
+            <div class="eventInfo">
+                <p>
+                    The Real Madrid Foundation Soccer Camps offers the unique and exciting opportunity to experience specialized soccer training, bringing their expert UEFA coaches selected by the Academy of the world’s most successful soccer team to help you improve your soccer skills.
+                </p>
+                <a href="{{ "#footer_contact" | relURL }}">
+                    <button class="bannerBtn">REGISTER</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="downloadBru">
+        <div class="downloadBruContent">
+            <h1>Download our informative brochure 23/24</h1>
+            <p>Get all the information you need about our RMF Clinics, right away!</p>
+            <a href="{{ "assets/pdf/CLINIC_UNIFORMS_MANUAL.pdf" | relURL }}" download="CLINIC_UNIFORMS_MANUAL.pdf">
+                <button class="bannerBtn">DOWNLOAD</button>
+            </a>
+            
+        </div>
+    </div>
+    <img class="pband" src="{{ "assets/images/pband.jpg" | relURL }}" alt="banner">
+    <div class="pbandMobile">
+        <img src="{{ "assets/images/pband1.jpg" | relURL }}" alt="banner">
+        <img src="{{ "assets/images/pband2.jpg" | relURL }}" alt="banner">
+        <img src="{{ "assets/images/pband3.jpg" | relURL }}" alt="banner">
+        <img src="{{ "assets/images/pband4.jpg" | relURL }}" alt="banner">
+    </div>
+</div>
+{{ end }}
