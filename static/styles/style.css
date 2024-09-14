@@ -728,10 +728,10 @@ a {
         display: flex;
     }
     .bannerContent h1{
-        font-size: 27px;
+        font-size: 22px;
     }
     .bannerContent p{
-        font-size: 17px;
+        font-size: 13px;
     }
     .bannerBtn{
         margin-top: 20px;
@@ -787,5 +787,11 @@ a {
     }
     .pbandMobile{
         display: flex;
+    }
+    .downloadBruContent p{
+        font-size: 12px;
+    }
+    .downloadBruContent h1{
+        font-size: 20px;
     }
 }
