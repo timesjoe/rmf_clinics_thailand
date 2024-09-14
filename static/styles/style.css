@@ -794,4 +794,7 @@ a {
     .downloadBruContent h1{
         font-size: 20px;
     }
+    .footerLink {
+        font-size: 12px;
+    }
 }
